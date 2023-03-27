@@ -12,7 +12,7 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale {
 
     // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
     constructor(
-        uint256 rate,
+        uint rate,
         address payable wallet, 
         KaseiCoin token
     ) 
@@ -48,11 +48,10 @@ contract KaseiCoinCrowdsaleDeployer {
         kasei_crowdsale_address = address(kasei_crowdsale);
 
         // Set the `KaseiCoinCrowdsale` contract as a minter
-        token.addMinter(KaseiCoinCrowdsale);
+        token.addMinter(kasei_crowdsale_address);
 
         
         // Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
         token.renounceMinter();
     }
 }
-*/
