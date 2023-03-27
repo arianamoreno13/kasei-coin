@@ -3,7 +3,7 @@ The objective of this project is to establish a crowdsale for a newly minted ERC
 
 Initially, the team will create a MetaMask test network, following which they will import two accounts via private keys from Ganache to allow them to interact with the test network. Upon completion of this process, the MetaMask wallet will display a balance of 100 ETH by default, and should look similar to the image below:
 
-![MetaMask Dev](media\metamaskdev.gif)
+![MetaMask Dev](media/metamaskdev.gif)
 
 The next task is to test the contracts. You can see below the KaseiCoin contract has been compiled successfully. 
 
