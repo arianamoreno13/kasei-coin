@@ -7,8 +7,8 @@ Initially, the team will create a MetaMask test network, following which they wi
 
 The next task is to test the contracts. You can see below the KaseiCoin contract has been compiled successfully. 
 
-![KaseiCoin contract Compiled](media\KaseiCoinSolcompiled.gif)
+![KaseiCoin contract Compiled](media/KaseiCoinSolcompiled.gif)
 
 Subsequently, it is important to confirm that the KaseiCoinCrowdsale contract and deployer compiles without any issues. You can see that in the imagine below. 
 
-![KaseiCoin Crowdsale Compiled](media\KaseiCoinCrowdsaleCompiled.gif)
+![KaseiCoin Crowdsale Compiled](media/KaseiCoinCrowdsaleCompiled.gif)
